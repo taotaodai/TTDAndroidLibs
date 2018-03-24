@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_form_theme">
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white"
+        android:layout_margin="10dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    android:id="@+id/action_bold"
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_bold"
+                    app:drawableSizeCb="16dp"
+                    android:background="@drawable/selector_rich_operation"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    android:id="@+id/action_italic"
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_italic"
+                    app:drawableSizeCb="16dp"
+                    android:background="@drawable/selector_rich_operation"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    android:id="@+id/action_underline"
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/underline"
+                    app:drawableSizeCb="16dp"
+                    android:background="@drawable/selector_rich_operation"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_text_color"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:padding="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/font_type"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"
+                    android:clickable="false"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="36dp"
+                android:background="@color/bg_form_theme"/>
+
+            <RelativeLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_file"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    android:id="@+id/action_insert_numbers"
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_numbers"
+                    app:drawableSizeCb="16dp"
+                    android:background="@drawable/selector_rich_operation"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_heading1"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_font_size"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"
+                    android:clickable="false"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/action_align_left"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_justify_left"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"
+                    android:clickable="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_align_center"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_justify_center"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"
+                    android:clickable="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_align_right"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_justify_right"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"
+                    android:clickable="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_undo"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:paddingTop="0.5dp"
+                android:paddingLeft="0.5dp"
+                android:paddingBottom="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/undo"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"
+                    android:clickable="false"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/action_redo"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/divider_general"
+                android:padding="0.5dp">
+                <hzst.android.view.MyCheckBox
+                    style="@style/check_rich_item"
+                    app:drawableTopCb="@drawable/ic_rich_redo"
+                    app:drawableSizeCb="16dp"
+                    android:background="@color/bg_white"
+                    android:clickable="false"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <hzst.android.view.richEditor.RichEditor
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+
+</LinearLayout>

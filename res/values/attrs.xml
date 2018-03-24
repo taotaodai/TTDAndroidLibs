@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="firstColor" format="color" />
+    <attr name="secondColor" format="color" />
+    <attr name="color" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="speed" format="integer" />
+    <attr name="text_color" format="color" />
+    <attr name="text_color_selected" format="color" />
+
+    <!--<attr name="drawableSize" format="dimension"/>-->
+    <!--<attr name="drawableTop" format="reference"/>-->
+    <!--<attr name="drawableLeft" format="reference"/>-->
+    <!--<attr name="drawableRight" format="reference"/>-->
+    <!--<attr name="drawableBottom" format="reference"/>-->
+
+    <declare-styleable name="AlternatelyProgressBar">
+        <attr name="firstColor" />
+        <attr name="secondColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+
+    <declare-styleable name="RingProgressBar">
+        <attr name="color" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+
+    <declare-styleable name="MyRadioButton">
+        <attr name="drawableSizeRb" format="dimension" />
+        <attr name="drawableTop" format="reference" />
+        <attr name="drawableLeft" format="reference" />
+        <attr name="drawableRight" format="reference" />
+        <attr name="drawableBottom" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MyCheckBox">
+        <attr name="drawableSizeCb" format="dimension" />
+        <attr name="drawableTopCb" format="reference" />
+        <attr name="drawableLeftCb" format="reference" />
+        <attr name="drawableRightCb" format="reference" />
+        <attr name="drawableBottomCb" format="reference" />
+    </declare-styleable>
+    <!-- 滑动页签 -->
+    <declare-styleable name="SlideTabsView">
+        <attr name="tabSize" format="integer" />
+        <attr name="text_color" />
+        <attr name="text_color_selected" />
+        <attr name="cursor_res" format="reference" />
+        <attr name="has_cusor" format="boolean" />
+        <attr name="tab_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="FooterListView">
+        <attr name="pageSize" format="integer" />
+    </declare-styleable>
+
+    <!-- 顶部导航栏属性 -->
+    <declare-styleable name="TopNavigationBar">
+        <attr name="title_top" format="string" />
+        <attr name="btn_left" format="integer">
+            <enum name="none" value="-1" />
+            <enum name="back" value="0" />
+            <enum name="cross" value="1" />
+        </attr>
+        <attr name="btn_right" format="integer">
+            <enum name="none" value="-1" />
+            <enum name="add" value="0" />
+            <enum name="search" value="1" />
+            <enum name="more" value="2" />
+        </attr>
+        <attr name="keynote_color" format="color" />
+        <attr name="background_res" format="reference|color"/>
+        <attr name="left_press_color" format="color" />
+        <attr name="right_press_color" format="color" />
+    </declare-styleable>
+
+</resources>

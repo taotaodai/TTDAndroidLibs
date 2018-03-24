@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 背景色 -start -->
+    <color name="bg_blue">#FF00B0C8</color>
+    <color name="bg_blue2">#FF00C8E0</color>
+    <color name="bg_blue_deep">#FF0066CC</color>
+    <color name="bg_chit_blue">#FF00BAFF</color>
+    <color name="bg_light_blue">#FFAAD3EF</color>
+    <color name="bg_transparent">#00000000</color><!-- 透明 -->
+    <color name="bg_white">#FFFFFFFF</color>
+    <color name="bg_black_transparency">#70000000</color>
+    <color name="bg_black">#FF000000</color>
+    <color name="bg_green">#FF34AD9C</color>
+    <color name="bg_orange_red">#FFFF5000</color><!-- 橙红色 -->
+    <color name="bg_orange">#FFEF8702</color>
+    <color name="bg_pinkish_red">#FFFF4E49</color><!-- 品红 -->
+    <color name="bg_vermilion">#FFF65E5E</color><!-- 朱红-->
+    <color name="bg_light_vermilion">#FFEFA3A3</color>
+    <color name="bg_classes_list1">#FFEDEDED</color>
+    <color name="bg_classes_list2">#FFF3F3F3</color>
+    <color name="bg_list_item_pressed">#FFE1E1E1</color>
+    <!-- 地址选择 -->
+    <!-- 灰色 -->
+    <color name="bg_unchoose_address1">#FF222222</color>
+    <color name="bg_unchoose_address2">#FF969696</color>
+    <color name="bg_gray">#FFDDDDDD</color>
+    <color name="bg_gray1">#FF212121</color>
+    <color name="bg_gray2">#FF3C3C3C</color>
+    <color name="bg_gray3">#FF5F5F5F</color>
+    <color name="bg_gray4">#FF979797</color>
+    <color name="bg_gray5">#FFD9D9D9</color>
+    <color name="bg_gray6">#FFF0F0F0</color>
+
+    <!-- 红色 -->
+    <color name="bg_red">#FFF04438</color>
+    <!-- 主色 -->
+    <color name="bg_keynote">#FF75CB10</color>
+    <!-- <color name="bg_keynote">#ff9ab413</color> --><!-- 主色原先 -->
+    <color name="bg_keynote_pressed">#FF6BBD0A</color><!-- 主色按下 -->   
+    <color name="bg_keynote_tran">#9075CB10</color><!-- 半透明 -->   
+    <color name="bg_keynote_tran_pressed">#9075CB10</color><!-- 半透明按下 -->  
+    <color name="bg_keynote_deep">#FF089037</color><!-- 深绿 -->   
+    <color name="bg_light_green">#FFD9EB7B</color>
+    <color name="bg_light_green2">#FFF1F5DF</color>
+    <color name="bg_line">#FFDDDDDD</color>
+    <color name="bg_yellow">#FFFFC641</color>
+    <!-- 背景色 -end -->
+
+
+    <!-- 字体色 -start-->
+    <color name="text_menu_color">#FF676767</color>
+    <color name="text_goods">#FF727272</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_black">#FF000000</color>
+    <color name="text_red">#FFF34C39</color>
+    <color name="text_yellow">#FFF9BC25</color>
+    <color name="tab_title_normal_color">#FF262726</color>
+    <color name="tab_title_pressed_color">#FF16982B</color>
+    <color name="tab_middle_line_color">#FF5C882C</color>
+    <!-- 灰色从深到浅 -->
+    <color name="text_gray1">#FF212121</color>
+    <color name="text_gray2">#FF3C3C3C</color>
+    <color name="text_gray3">#FF5F5F5F</color>
+    <color name="text_gray4">#FF979797</color>
+    <color name="text_gray5">#FFD9D9D9</color>
+    <color name="text_hint">#FFCCCCCC</color>
+    <color name="text_blue">#FF80CABD</color>
+    <color name="text_orange">#FFEF8702</color>
+    <color name="text_green">#FF63AE5B</color>
+    <color name="text_grass_green">#FF0BA600</color>
+    <color name="text_light_green">#FF75C813</color>
+    <color name="text_deep_green">#FF677A06</color>
+
+    <!-- 字体色 -end -->
+
+
+    <!-- 边框颜色 -->
+    <color name="border_checked">#FFFA6B0D</color>
+    <color name="border_unchecked">#FFC9C9C9</color>
+    <color name="border_gray1">#FFDDDDDD</color>
+    <color name="border_gray2">#FFCCCCCC</color>
+    
+    <!-- divider -->
+    <color name="divider_general">#FFD7D7D7</color>
+    
+    <!-- 表格背景 -->
+    <color name="bg_form_name">#FFE2F3FC</color>
+    <color name="bg_form_content">#FFF8FBFF</color>
+
+    <!-- 二维码 -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <!--蓝色-->
+    <color name="blue">#1E90FF</color>
+
+    <!-- 表单相关-->
+    <color name="bg_form_theme">#FFF5F5F5</color>
+    <color name="bg_form_keynote">#FF40AFFC</color>
+    <color name="bg_form_divider">#FFE6E6E6</color>
+    <color name="bg_form">#FFF5F5F5</color>
+
+    <color name="form_title_color">#FF5F5F5F</color>
+    <color name="form_title_color_r">#FF808080</color>
+    <color name="form_content_color">#FF5F5F5F</color>
+</resources>

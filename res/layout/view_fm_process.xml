@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_form_theme">
+
+    <LinearLayout
+        android:id="@+id/llay_opinion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="意        见："
+            android:textSize="@dimen/text_size_form_title"
+            android:textColor="@color/form_title_color"
+            android:layout_gravity="top"
+            android:paddingTop="5dp"/>
+        <EditText
+            android:id="@+id/et_opinion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="@color/text_gray3"
+            android:minWidth="50dp"
+            android:textColorHint="@color/text_hint"
+            android:background="@null"
+            android:lines="4"
+            android:gravity="top"
+            android:paddingTop="5dp"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_divider_1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_form_divider"/>
+
+    <LinearLayout
+        android:id="@+id/llay_reject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/bg_white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="驳  回  到："
+            android:textSize="@dimen/text_size_form_title"
+            android:textColor="@color/text_orange"
+            android:layout_gravity="center_vertical"/>
+        <Spinner
+            android:id="@+id/sp_reject_members"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_divider_2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/bg_form_divider"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="审批流程"
+        android:textSize="@dimen/text_size_form_title"
+        android:textColor="@color/form_title_color"
+        android:layout_marginTop="5dp"/>
+
+    <hzst.android.view.ListViewForScrollView
+        android:id="@+id/lv_links"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_transparent"
+        android:divider="@null"/>
+</LinearLayout>

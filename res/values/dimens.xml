@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ts_normal">16sp</dimen>
+
+    <dimen name="text_size_form_title">16sp</dimen>
+    <dimen name="text_size_form_content">16sp</dimen>
+
+    <dimen name="size_form_arrow">16dp</dimen>
+</resources>

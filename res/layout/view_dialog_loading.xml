@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_centerInParent="true"
+	    android:background="@drawable/bg_load_dialog"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp">
+		<ImageView
+			android:id="@+id/iv_loading"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:background="@drawable/ic_loading_normal"/>
+		<TextView
+		    android:id="@+id/tv_hint"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="正在加载..."
+		    android:layout_gravity="center_vertical"
+		    android:layout_marginLeft="10dp"
+		    android:textSize="@dimen/ts_normal"/>
+    </LinearLayout>
+
+</RelativeLayout>
